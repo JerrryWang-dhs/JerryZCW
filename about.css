@@ -1,0 +1,12 @@
+.about {
+	overflow: hidden;
+}
+.about ul li {
+	text-align: left;
+	width: 350px;
+	float: left;
+	display: block;
+	height: 650px;
+	margin-right: 130px;
+	color: #8a8989;
+}

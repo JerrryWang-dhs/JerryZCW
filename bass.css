@@ -1,0 +1,133 @@
+a {
+	outline:none;
+	text-decoration: none;
+	color: #000;
+}
+a img {
+	border:0;
+	display:block;
+	
+}
+p a {
+	color: #8A8989!important;
+	text-decoration:underline!important;
+}
+p a:hover {
+	color:#4b4b4b!important;
+	text-decoration:underline!important;
+}
+*{
+	margin: 0px;
+	padding:0px;
+}
+ul li {
+	list-style: none;
+}
+.w {
+	margin: 0 auto;
+	width: 960px;
+}
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+	
+}
+/*------------------------- Header ------------------------*/
+.header {
+	height: 60px;
+	background-color: #333;
+}
+.header div {
+	overflow: hidden;
+	height:60px;
+}
+.header div a#logo {
+	float:left;
+	margin:13px 0 0;
+}
+.header div ul {
+	float: right;
+    list-style: none outside none;
+    margin: 21px 0 0;
+    padding: 0;
+}
+.header div ul li {
+	color:#fff;
+	float:left;
+	width: 100px;
+	list-style-position:inside;
+	list-style-type:disc;
+	margin:0 0 0 15px;
+	position:relative;
+}
+.header div ul li a {
+	color:#c0bfbf;
+	font-family: 'forumregular';
+	font-size:12px;
+	letter-spacing:2px;
+	text-decoration:none;
+	text-transform:uppercase;
+}
+.header div ul li a:hover{
+	color: #fff;
+}
+
+
+/*------------------------- Footer ------------------------*/
+.footer {
+	background-color: #444;
+	border-top:1px solid #dedede;
+	color:#929191;
+	font-family: 'forumregular';
+	font-size:12px;
+	height:36px;
+	text-transform:uppercase;
+}
+.footer div {
+	margin:0 auto;
+	overflow:hidden;
+	width:960px
+}
+.footer div p {
+	float:left
+}
+.footer div p.address {
+	margin-left:65px
+}
+.footer div ul {
+	float:left;
+	list-style:none;
+	margin:12px 75px 12px 3px;
+	padding:0
+}
+.footer div ul li:first-child {
+	margin:0
+}
+.footer div ul li {
+	background:url(../images/separator2.png) no-repeat left center;
+	float:left;
+	margin:0 0 0 5px;
+	padding:0 0 0 7px
+}
+.footer div .connect {
+	float:right;
+	margin:12px 0 0 0;
+	width:auto
+}
+.footer div .connect a:first-child {
+	margin:0 10px 0 0
+}
+.footer div ul li a, .footer div .connect a {
+	color:#929191;
+	font-family: 'forumregular';
+	font-size:12px;
+	text-decoration:none;
+	text-transform:uppercase;
+	margin:0 10px 0 0;
+}
+.footer div ul li a:hover, .footer div .connect a:hover {
+	color:#4b4b4b;
+	text-decoration:none
+}

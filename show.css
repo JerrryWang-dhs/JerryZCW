@@ -1,0 +1,44 @@
+.body .div1 .div2 {
+	position: absolute;
+}
+.body .div2 h3 {
+	margin-top: 0px;
+	text-align: center;
+	color: #fff;
+	font-size: 24px;
+}
+.body .div2 ul li {
+	line-height: 80px;
+	font-size: 16px;
+	text-align: center;
+	font-weight: 400;
+}
+.body .div2 ul li a{
+	font-size: 16px;
+	text-align: center;
+	font-weight: 400;
+	color: #ddd;
+}
+.body .div2 ul li a:hover{
+	color: #fff;
+}
+.body .div1 .div3 {
+	margin-left: 200px;
+	text-align: center;
+}
+.body .div1  {
+	position: relative;
+}
+.body .div1 .div3 h2 {
+	margin-left: 130px;
+	width: 500px;
+	height: 32px;
+	display: block;
+	background-color: #aaa;
+	text-align: center;
+}
+.body .div1 .div3 p{
+	margin-top: 20px;
+	display: block;
+	text-align: center;
+}
